@@ -16,7 +16,7 @@ walkdir = "2.5"
 nucleo-matcher = "0.3"
 serde = { version = "1.0", features = ["derive"] }
 toml = "0.8"
-dirs = "5.0"
+dirs = "6.0"
 thiserror = "1.0"
 arboard = { version = "3.4", optional = true }
 tokio = { version = "1.40", features = ["rt-multi-thread", "macros"], optional = true }
