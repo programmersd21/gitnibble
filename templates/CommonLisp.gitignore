@@ -1,0 +1,15 @@
+*.fas
+*.fasl
+*.lib
+*.dx64fsl
+*.dx32fsl
+*.lx64fsl
+*.lx32fsl
+*.armfsl
+*.x86fsl
+*.pfsl
+*.dfsl
+*.p64fsl
+*.d64fsl
+*.abcl
+*.cf

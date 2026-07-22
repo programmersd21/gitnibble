@@ -1,0 +1,6 @@
+standalone/tmp/
+standalone/data/
+standalone/log/
+domain/tmp/
+domain/data/
+domain/log/

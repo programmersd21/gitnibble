@@ -1,0 +1,13 @@
+# section UV
+.venv/
+.uv/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+*.egg-info/
+.env
+.env.local
+.pytest_cache/
+.coverage
+htmlcov/

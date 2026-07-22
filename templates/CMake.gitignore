@@ -1,0 +1,8 @@
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeOutput.log
+CMakeError.log
+cmake_install.cmake
+Makefile
+*.cmake

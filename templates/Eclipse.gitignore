@@ -1,0 +1,14 @@
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.class
+*.jar
+*.war
+*.ear
+*.ear
+.settings/
+.loadpath
+.recommenders

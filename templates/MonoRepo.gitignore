@@ -1,0 +1,14 @@
+# section MonoRepo
+node_modules/
+dist/
+build/
+.turbo/
+.nx/cache/
+.cache/
+coverage/
+*.log
+.env
+.env.local
+.env.*.local
+tmp/
+.tmp/

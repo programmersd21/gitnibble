@@ -1,0 +1,4 @@
+# section Roc
+.roc-cache/
+build/
+*.o

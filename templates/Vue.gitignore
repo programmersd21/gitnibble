@@ -1,0 +1,3 @@
+# Vue
+# Note: Vue relies on Node rules for node_modules.
+.vite/

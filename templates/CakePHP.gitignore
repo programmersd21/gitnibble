@@ -1,0 +1,8 @@
+# CakePHP
+/vendor/
+/tmp/
+/logs/
+/config/app.php
+/app/tmp/
+/app/Config/database.php
+/app/Config/core.php

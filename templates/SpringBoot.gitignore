@@ -1,0 +1,13 @@
+# section SpringBoot
+target/
+build/
+*.jar
+*.war
+*.class
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+local.properties
+*.log
+.env
+application-local.properties
+application-local.yml

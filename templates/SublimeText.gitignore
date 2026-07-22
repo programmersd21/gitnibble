@@ -1,0 +1,5 @@
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+Package Control.last-run

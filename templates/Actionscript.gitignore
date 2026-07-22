@@ -1,0 +1,12 @@
+# Build products
+bin/
+bin-debug/
+bin-release/
+[Aa]rgus[Rr]eport.xml
+
+# Flex builder files
+.flexProperties
+.actionScriptProperties
+.buildpath
+.settings/
+.project

@@ -1,0 +1,3 @@
+# section OpenAPI
+generated/
+.openapi-generator/

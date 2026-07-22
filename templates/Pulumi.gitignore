@@ -1,0 +1,7 @@
+# section Pulumi
+.pulumi/
+*.pem
+__pycache__/
+node_modules/
+venv/
+.env

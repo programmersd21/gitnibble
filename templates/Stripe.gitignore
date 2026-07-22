@@ -1,0 +1,6 @@
+# section Stripe
+.stripe/
+webhook_secret
+.env
+.env.local
+stripe-cli.json

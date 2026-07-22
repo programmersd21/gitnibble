@@ -1,0 +1,7 @@
+# section Odin
+build/
+*.exe
+*.o
+*.so
+*.dylib
+out/

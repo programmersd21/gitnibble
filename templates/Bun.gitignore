@@ -1,0 +1,9 @@
+# section Bun
+node_modules/
+.bun-cache/
+bun.lockb
+*.bun
+dist/
+.env
+.env.local
+.env.*.local

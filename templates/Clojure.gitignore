@@ -1,0 +1,13 @@
+/classes/
+/checkouts/
+.lein-deps-root
+.lein-failures
+.lein-plugins
+.lein-repl-history
+.clj-kondo/
+.cpcache/
+.portal/
+pom.xml
+*.jar
+*.class
+/target/

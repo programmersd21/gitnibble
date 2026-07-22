@@ -1,0 +1,7 @@
+# section Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+node_modules/
+.env
+.env.local

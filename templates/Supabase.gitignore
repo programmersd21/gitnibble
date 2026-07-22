@@ -1,0 +1,7 @@
+# section Supabase
+.env
+.env.local
+.env.*.local
+supabase/.temp/
+supabase/functions/.env
+supabase/functions/**/.env

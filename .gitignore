@@ -1,0 +1,21 @@
+### Rust ###
+target/
+**/*.rs.bk
+*.rmeta
+Cargo.lock.msrv
+
+### Editor ###
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### CI / Cache ###
+.cache/
+*.log

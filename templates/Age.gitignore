@@ -1,0 +1,5 @@
+# section Age
+*.age
+identity.txt
+key.txt
+secret.key

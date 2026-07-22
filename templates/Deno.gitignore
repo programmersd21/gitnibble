@@ -1,0 +1,7 @@
+# section Deno
+.deno/
+# deno.lock is sometimes kept, omit or comment out if desired
+.env
+.env.local
+npm/
+dist/

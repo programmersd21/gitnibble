@@ -1,0 +1,5 @@
+# section GPG
+secring.gpg
+*.secret.gpg
+private-keys-v1.d/
+random_seed

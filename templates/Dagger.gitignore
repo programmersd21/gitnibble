@@ -1,0 +1,5 @@
+# section Dagger
+.dagger/
+dagger.gen.go
+internal/dagger/
+querybuilder/

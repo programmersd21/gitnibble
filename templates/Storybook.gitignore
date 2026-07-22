@@ -1,0 +1,7 @@
+# section Storybook
+storybook-static/
+node_modules/
+.cache/
+.env
+*.log
+build-storybook.log

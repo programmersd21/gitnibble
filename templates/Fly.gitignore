@@ -1,0 +1,7 @@
+# section Fly
+.env
+.env.local
+.env.*.local
+fly.secrets
+node_modules/
+dist/

@@ -1,0 +1,4 @@
+.packages
+.pub/
+build/
+.dart_tool/

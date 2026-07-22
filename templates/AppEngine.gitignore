@@ -1,0 +1,4 @@
+# Google App Engine generated files
+appengine-generated/
+*.pyc
+*.pyo

@@ -1,0 +1,10 @@
+# C# / .NET
+bin/
+obj/
+out/
+[Tt]est[R]esult*/
+*.user
+*.userosmat
+*.suo
+*.userprefs
+*.mono

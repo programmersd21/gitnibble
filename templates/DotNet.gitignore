@@ -1,0 +1,17 @@
+# section DotNet
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+.vs/
+publish/
+*.nupkg
+*.snupkg
+project.lock.json
+packages/
+*.log
+.env
+appsettings.Local.json
+secrets.json
+launchSettings.json

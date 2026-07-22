@@ -1,0 +1,6 @@
+# section Vitest
+coverage/
+.vitest-cache/
+node_modules/
+dist/
+*.log

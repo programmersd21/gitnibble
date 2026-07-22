@@ -1,0 +1,4 @@
+# section Buck2
+buck-out/
+.buck2/
+.buckd/

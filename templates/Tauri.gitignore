@@ -1,0 +1,8 @@
+# section Tauri
+src-tauri/target/
+node_modules/
+dist/
+.env
+.env.local
+*.idb
+gen/

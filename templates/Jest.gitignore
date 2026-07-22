@@ -1,0 +1,6 @@
+# section Jest
+coverage/
+node_modules/
+.env
+.env.local
+*.log

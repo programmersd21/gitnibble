@@ -1,0 +1,4 @@
+# section Skaffold
+.skaffold/
+skaffold-debug-helpers/
+*.log

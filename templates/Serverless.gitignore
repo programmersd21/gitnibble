@@ -1,0 +1,9 @@
+# section Serverless
+.serverless/
+node_modules/
+.env
+.env.*
+serverless.env.yml
+.webpack/
+.build/
+dist/

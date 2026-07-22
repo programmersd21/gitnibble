@@ -1,0 +1,17 @@
+# section MLflow
+mlruns/
+mlartifacts/
+.mlflow/
+__pycache__/
+*.pyc
+.env
+models/
+checkpoints/
+*.pkl
+*.h5
+*.onnx
+*.pt
+*.pth
+wandb/
+.dvc/tmp/
+outputs/

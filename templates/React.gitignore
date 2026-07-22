@@ -1,0 +1,6 @@
+# React
+# Note: React relies on Node rules for node_modules and build directories.
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

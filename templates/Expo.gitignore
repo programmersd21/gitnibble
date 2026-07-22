@@ -1,0 +1,17 @@
+# section Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/local.properties
+.env
+.env.local
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision

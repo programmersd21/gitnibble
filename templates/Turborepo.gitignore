@@ -1,0 +1,10 @@
+# section Turborepo
+.turbo/
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+coverage/

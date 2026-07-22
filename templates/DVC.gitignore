@@ -1,0 +1,9 @@
+# section DVC
+.dvc/tmp/
+.dvc/cache/
+/tmp/
+*.pyc
+__pycache__/
+.env
+data/
+models/

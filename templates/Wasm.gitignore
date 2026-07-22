@@ -1,0 +1,7 @@
+# section Wasm
+target/
+pkg/
+*.wasm
+node_modules/
+dist/
+.wasm-pack.log

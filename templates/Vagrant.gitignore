@@ -1,0 +1,4 @@
+# section Vagrant
+.vagrant/
+*.box
+Vagrantfile.local

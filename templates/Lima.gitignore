@@ -1,0 +1,4 @@
+# section Lima
+.lima/
+*.qcow2
+*.img

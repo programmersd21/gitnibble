@@ -1,0 +1,4 @@
+# PHP
+vendor/
+composer.phar
+.phpunit.result.cache

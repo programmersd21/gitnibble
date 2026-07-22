@@ -1,0 +1,11 @@
+# section Kubernetes
+*.kubeconfig
+kubeconfig
+secrets/
+*-secret.yaml
+*-secret.yml
+charts/*.tgz
+.helm/
+values.local.yaml
+values.local.yml
+override.yaml

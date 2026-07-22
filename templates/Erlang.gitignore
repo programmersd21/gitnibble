@@ -1,0 +1,10 @@
+.eunit
+*.o
+*.beam
+*.plist
+erl_crash.dump
+.rebar/
+.rebar3/
+_build/
+ebin/
+doc/

@@ -1,0 +1,13 @@
+# section FastAPI
+__pycache__/
+.venv/
+venv/
+*.pyc
+.env
+.env.local
+alembic/versions/*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+*.egg-info/

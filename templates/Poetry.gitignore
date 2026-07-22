@@ -1,0 +1,12 @@
+# section Poetry
+.venv/
+dist/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.local

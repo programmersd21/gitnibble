@@ -1,0 +1,10 @@
+# section CDK
+cdk.out/
+node_modules/
+.env
+*.js
+*.d.ts
+dist/
+build/
+.cdk.staging/
+cdk.context.json

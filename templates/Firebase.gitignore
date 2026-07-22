@@ -1,0 +1,10 @@
+# section Firebase
+.env
+.env.local
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+functions/node_modules/
+functions/lib/
+hosting/.cache/
+ui-debug.log

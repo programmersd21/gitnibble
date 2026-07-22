@@ -1,0 +1,8 @@
+# section Conda
+envs/
+.conda/
+*.conda
+*.tar.bz2
+__pycache__/
+.ipynb_checkpoints/
+.env

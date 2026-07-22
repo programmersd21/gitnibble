@@ -1,0 +1,9 @@
+# section Netlify
+.netlify/
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+netlify/functions/node_modules/

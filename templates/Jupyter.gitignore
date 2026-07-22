@@ -1,0 +1,8 @@
+# section Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.virtual_documents/
+.jupyterlab-workspace
+*.nbconvert.ipynb

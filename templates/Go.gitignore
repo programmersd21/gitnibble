@@ -1,0 +1,22 @@
+# Binaries for programs and tests
+*.exe
+*.exe-debug
+*.exe-san
+*.out
+*.app
+*.bin
+
+# Test binary, built with `go test -c`
+*.test
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Architecture specific extensions
+*.a
+*.o
+*.so
+
+# Environment files
+.env

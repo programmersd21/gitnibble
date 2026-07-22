@@ -1,0 +1,8 @@
+# section Remix
+.cache/
+build/
+node_modules/
+.env
+.env.local
+.env.*.local
+public/build/

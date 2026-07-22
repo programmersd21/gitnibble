@@ -1,0 +1,9 @@
+# Arch Linux package creation
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.pkg.tar.*
+pkg/
+src/

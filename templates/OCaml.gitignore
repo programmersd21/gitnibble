@@ -1,0 +1,10 @@
+*.cmo
+*.cmi
+*.cmx
+*.o
+*.a
+*.cmxa
+*.cmxs
+*.annot
+.opam/
+_build/

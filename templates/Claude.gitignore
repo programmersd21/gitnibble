@@ -1,0 +1,4 @@
+# section Claude
+.claude/
+.mcp.json
+.anthropic/

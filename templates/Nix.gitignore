@@ -1,0 +1,6 @@
+# section Nix
+result
+result-*
+.direnv/
+*.drv
+.nix-shells/

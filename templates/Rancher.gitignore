@@ -1,0 +1,6 @@
+# section Rancher
+kubeconfig
+*.kubeconfig
+.kube/
+k3s.yaml
+rancher-credentials

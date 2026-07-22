@@ -1,0 +1,6 @@
+# TypeScript
+# Note: TypeScript inherits Node rules for node_modules and logs.
+*.tsbuildinfo
+dist/
+build/
+lib/

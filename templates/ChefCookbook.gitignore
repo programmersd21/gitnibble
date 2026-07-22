@@ -1,0 +1,8 @@
+.berks/
+berkshelf/
+berkshelf-cookbooks/
+.kitchen/
+.kitchen.local.yml
+vendor/
+metadata.json
+*.swp

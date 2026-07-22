@@ -1,0 +1,7 @@
+# section Helm
+charts/*.tgz
+.helm/
+*.lock
+values.local.yaml
+values.override.yaml
+secrets.yaml

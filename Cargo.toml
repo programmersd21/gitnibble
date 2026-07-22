@@ -1,0 +1,43 @@
+[package]
+name = "gitnibble"
+version = "0.1.0"
+edition = "2021"
+description = "Instant, offline-first, context-aware .gitignore TUI"
+license = "MIT"
+repository = "https://github.com/programmersd21gitnibble"
+keywords = ["gitignore", "tui", "cli", "git", "ratatui"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+clap = { version = "4.5", features = ["derive"] }
+walkdir = "2.5"
+nucleo-matcher = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+dirs = "5.0"
+thiserror = "1.0"
+arboard = { version = "3.4", optional = true }
+tokio = { version = "1.40", features = ["rt-multi-thread", "macros"], optional = true }
+reqwest = { version = "0.12", features = ["json"], optional = true }
+serde_json = { version = "1.0", optional = true }
+
+[features]
+default = ["clipboard"]
+clipboard = ["dep:arboard"]
+fetch = ["dep:tokio", "dep:reqwest", "dep:serde_json"]
+
+[[bin]]
+name = "gitnibble"
+path = "src/main.rs"
+
+[lib]
+name = "gitnibble"
+path = "src/lib.rs"
+
+[profile.release]
+lto = true
+strip = true
+opt-level = "z"
+codegen-units = 1

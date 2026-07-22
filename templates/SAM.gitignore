@@ -1,0 +1,6 @@
+# section SAM
+.aws-sam/
+packaged.yaml
+.env
+__pycache__/
+node_modules/

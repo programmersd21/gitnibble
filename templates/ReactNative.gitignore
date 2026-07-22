@@ -1,0 +1,16 @@
+# section React Native
+node_modules/
+.bundle/
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.env
+.env.local

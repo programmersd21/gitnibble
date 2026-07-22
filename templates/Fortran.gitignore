@@ -1,0 +1,6 @@
+*.o
+*.mod
+*.smod
+*.a
+*.so
+*.exe

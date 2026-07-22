@@ -1,0 +1,6 @@
+nimcache/
+*.o
+*.a
+*.so
+*.dylib
+*.dll

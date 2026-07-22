@@ -1,0 +1,4 @@
+# section SOPS
+*.decrypted.yaml
+*.decrypted.yml
+*.decrypted.json

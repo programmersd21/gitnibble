@@ -1,0 +1,15 @@
+# section ElectronJS
+node_modules/
+dist/
+out/
+release-builds/
+.cache/
+*.log
+.env
+.env.local
+*.asar
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm

@@ -1,0 +1,4 @@
+# section Carbon
+build/
+bazel-*
+*.o

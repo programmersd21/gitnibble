@@ -1,0 +1,6 @@
+# section Bazel
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-*
+.bazel/

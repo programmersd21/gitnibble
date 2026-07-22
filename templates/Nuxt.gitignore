@@ -1,0 +1,4 @@
+# Nuxt
+.nuxt/
+.output/
+dist/
