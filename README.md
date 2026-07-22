@@ -2,7 +2,7 @@
 
 ### gitnibble
 
-![Demo](assets/demo.gif)
+![Demo](https://raw.githubusercontent.com/programmersd21/gitnibble/main/assets/demo.gif)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/programmersd21/gitnibble/ci.yml?style=for-the-badge&logo=githubactions&logoColor=white&color=2EA043&labelColor=000000)](https://github.com/programmersd21/gitnibble/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/gitnibble?style=for-the-badge&logo=rust&color=FE7D37&labelColor=000000)](https://crates.io/crates/gitnibble)
