@@ -5,8 +5,8 @@
 ![Demo](https://raw.githubusercontent.com/programmersd21/gitnibble/main/assets/demo.gif)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/programmersd21/gitnibble/ci.yml?style=for-the-badge&logo=githubactions&logoColor=white&color=2EA043&labelColor=000000)](https://github.com/programmersd21/gitnibble/actions/workflows/ci.yml)
-[![Crates.io](https://img.shields.io/crates/v/gitnibble?style=for-the-badge&logo=rust&color=FE7D37&labelColor=000000)](https://crates.io/crates/gitnibble)
-[![Downloads](https://img.shields.io/crates/d/gitnibble?style=for-the-badge&logo=rust&color=58A6FF&labelColor=000000)](https://crates.io/crates/gitnibble)
+[![Crates.io](https://img.shields.io/crates/v/gitnibble-rs?style=for-the-badge&logo=rust&color=FE7D37&labelColor=000000)](https://crates.io/crates/gitnibble-rs)
+[![Downloads](https://img.shields.io/crates/d/gitnibble-rs?style=for-the-badge&logo=rust&color=58A6FF&labelColor=000000)](https://crates.io/crates/gitnibble-rs)
 [![License](https://img.shields.io/badge/license-MIT-8250DF?style=for-the-badge&labelColor=000000)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-win%20%7C%20linux%20%7C%20macos-00ADB5?style=for-the-badge&labelColor=000000)](https://github.com/programmersd21/gitnibble)
 [![Built with](https://img.shields.io/badge/built%20with-ratatui-FF2D55?style=for-the-badge&logo=rust&labelColor=000000)](https://ratatui.rs)
@@ -35,7 +35,7 @@ Press `t` in the TUI to open the theme selector.
 ## Installation
 
 ```bash
-cargo install gitnibble
+cargo install gitnibble-rs
 ```
 
 Or build from source:

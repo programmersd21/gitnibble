@@ -1,10 +1,10 @@
 [package]
-name = "gitnibble"
+name = "gitnibble-rs"
 version = "0.1.0"
 edition = "2021"
 description = "Instant, offline-first, context-aware .gitignore TUI"
 license = "MIT"
-repository = "https://github.com/programmersd21gitnibble"
+repository = "https://github.com/programmersd21/gitnibble"
 keywords = ["gitignore", "tui", "cli", "git", "ratatui"]
 categories = ["command-line-utilities", "development-tools"]
 
