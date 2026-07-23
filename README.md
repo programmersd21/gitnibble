@@ -10,6 +10,7 @@
 [![License](https://img.shields.io/badge/license-MIT-8250DF?style=for-the-badge&labelColor=000000)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-win%20%7C%20linux%20%7C%20macos-00ADB5?style=for-the-badge&labelColor=000000)](https://github.com/programmersd21/gitnibble)
 [![Built with](https://img.shields.io/badge/built%20with-ratatui-FF2D55?style=for-the-badge&logo=rust&labelColor=000000)](https://ratatui.rs)
+[![AUR](https://img.shields.io/aur/version/gitnibble-bin?style=for-the-badge&logo=archlinux&color=1793D1&labelColor=000000)](https://aur.archlinux.org/packages/gitnibble-bin)
 
 </div>
 
@@ -36,6 +37,12 @@ Press `t` in the TUI to open the theme selector.
 
 ```bash
 cargo install gitnibble-rs
+```
+
+**Arch Linux** (AUR):
+
+```bash
+yay -S gitnibble-bin
 ```
 
 Or build from source:
