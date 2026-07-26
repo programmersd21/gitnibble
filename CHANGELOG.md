@@ -2,6 +2,11 @@
 
 All notable changes to `gitnibble` will be documented in this file.
 
+## [0.1.2] - 2026-07-26
+
+### Added
+- Shift+Tab for reverse pane cycling.
+
 ## [0.1.1] - 2026-07-26
 
 ### Fixed
