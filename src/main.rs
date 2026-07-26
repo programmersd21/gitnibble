@@ -213,6 +213,10 @@ fn run_tui(config: Config) -> Result<(), Box<dyn std::error::Error>> {
                             app.is_search_mode = false;
                             app.cycle_pane();
                         }
+                        KeyCode::BackTab => {
+                            app.is_search_mode = false;
+                            app.cycle_pane_rev();
+                        }
                         KeyCode::Backspace => {
                             app.search_query.pop();
                             app.selected_index = 0;
@@ -234,6 +238,10 @@ fn run_tui(config: Config) -> Result<(), Box<dyn std::error::Error>> {
                         KeyCode::Tab => {
                             app.show_help = false;
                             app.cycle_pane();
+                        }
+                        KeyCode::BackTab => {
+                            app.show_help = false;
+                            app.cycle_pane_rev();
                         }
                         _ => {}
                     }
@@ -276,6 +284,9 @@ fn run_tui(config: Config) -> Result<(), Box<dyn std::error::Error>> {
                     }
                     KeyCode::Tab => {
                         app.cycle_pane();
+                    }
+                    KeyCode::BackTab => {
+                        app.cycle_pane_rev();
                     }
                     KeyCode::Char('/') => {
                         app.is_search_mode = true;

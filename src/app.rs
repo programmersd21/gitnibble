@@ -92,6 +92,14 @@ impl App {
         };
     }
 
+    pub fn cycle_pane_rev(&mut self) {
+        self.focused_pane = match self.focused_pane {
+            FocusedPane::Stack => FocusedPane::Diff,
+            FocusedPane::Templates => FocusedPane::Stack,
+            FocusedPane::Diff => FocusedPane::Templates,
+        };
+    }
+
     pub fn toggle_template(&mut self, name: &str) {
         if self.toggled_templates.contains(name) {
             self.toggled_templates.remove(name);
