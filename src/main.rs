@@ -1,6 +1,6 @@
 use clap::Parser;
 use crossterm::{
-    event::KeyCode,
+    event::{DisableMouseCapture, EnableMouseCapture, KeyCode},
     execute,
     terminal::{disable_raw_mode, enable_raw_mode, EnterAlternateScreen, LeaveAlternateScreen},
 };
@@ -18,9 +18,10 @@ use ratatui::{backend::CrosstermBackend, Terminal};
 use std::fs;
 use std::io;
 use std::process::ExitCode;
+use std::time::Instant;
 
 fn restore_terminal() {
-    let _ = execute!(io::stdout(), LeaveAlternateScreen);
+    let _ = execute!(io::stdout(), LeaveAlternateScreen, DisableMouseCapture);
     let _ = disable_raw_mode();
 }
 
@@ -179,7 +180,7 @@ fn run_tui(config: Config) -> Result<(), Box<dyn std::error::Error>> {
 
     enable_raw_mode()?;
     let mut stdout = io::stdout();
-    execute!(stdout, EnterAlternateScreen)?;
+    execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
     let _guard = TerminalGuard;
 
     let backend = CrosstermBackend::new(stdout);
@@ -345,9 +346,44 @@ fn run_tui(config: Config) -> Result<(), Box<dyn std::error::Error>> {
                     _ => {}
                 }
             }
+            AppEvent::ScrollDown => {
+                if app.last_scroll_time.elapsed() >= ms(100) {
+                    app.last_scroll_time = Instant::now();
+                    match app.focused_pane {
+                        FocusedPane::Templates => {
+                            let len = app.filtered_templates().len();
+                            if len > 0 && app.selected_index < len - 1 {
+                                app.selected_index += 1;
+                            }
+                        }
+                        FocusedPane::Diff => {
+                            app.diff_scroll = app.diff_scroll.saturating_add(1);
+                        }
+                        _ => {}
+                    }
+                }
+            }
+            AppEvent::ScrollUp => {
+                if app.last_scroll_time.elapsed() >= ms(100) {
+                    app.last_scroll_time = Instant::now();
+                    match app.focused_pane {
+                        FocusedPane::Templates if app.selected_index > 0 => {
+                            app.selected_index -= 1;
+                        }
+                        FocusedPane::Diff => {
+                            app.diff_scroll = app.diff_scroll.saturating_sub(1);
+                        }
+                        _ => {}
+                    }
+                }
+            }
             AppEvent::Resize | AppEvent::Tick => {}
         }
     }
 
     Ok(())
+}
+
+fn ms(n: u64) -> std::time::Duration {
+    std::time::Duration::from_millis(n)
 }

@@ -10,6 +10,7 @@ use ratatui::layout::{Constraint, Direction, Layout};
 use ratatui::Frame;
 use std::collections::HashSet;
 use std::fs;
+use std::time::Instant;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum FocusedPane {
@@ -35,6 +36,7 @@ pub struct App {
 
     pub show_theme_selector: bool,
     pub theme_selector_index: usize,
+    pub last_scroll_time: Instant,
 
     cached_diff: Vec<DiffLine>,
     diff_dirty: bool,
@@ -72,6 +74,7 @@ impl App {
             should_quit: false,
             show_theme_selector: false,
             theme_selector_index: 0,
+            last_scroll_time: Instant::now(),
             cached_diff,
             diff_dirty: true,
         }
